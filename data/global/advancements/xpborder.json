@@ -1,0 +1,18 @@
+{
+    "display": {
+        "title": "xpborder",
+        "description": "xp level determines world border",
+        "icon": {
+            "item": "minecraft:player_head",
+            "nbt": "{SkullOwner: 'TheOlympianGamer'}"
+        },
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "global:root",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}
